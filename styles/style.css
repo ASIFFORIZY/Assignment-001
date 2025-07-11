@@ -173,10 +173,19 @@ main{
     background-color: #ffffff;
     padding: 25px;
     border: 1px solid;
+    border-color: rgba(241, 195, 93, 0.3);
+    border-radius: 10px;
+}
+
+.reviews:hover{
+    background-color: #ffffff;
+    padding: 25px;
+    border: 1px solid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-color: rgb(239, 190, 84,.30);
     border-radius: 10px;
 }
+
 
 .review-heading{
     font-weight: bold;
@@ -208,3 +217,58 @@ color: #68686c;
     font-family: inter;
     color: #909093;
 }
+
+
+/* ready section styles */
+
+.ready-section{
+    background-color:rgb(227, 227, 238);
+    border-radius: 14px;
+}
+.ready-title{
+    padding-top: 71px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ready-des{
+    text-align: center;
+    color: #909093;
+    font-size: .9rem;
+}
+
+.get-btn{
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top:20px ;
+    
+}
+
+.ready-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wg{
+    border-radius: 48px;
+    height:365px ;
+}
+
+.ready-wg-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 71px;
+} 
+
+
+
