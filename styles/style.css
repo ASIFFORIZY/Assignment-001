@@ -150,5 +150,61 @@ main{
 .user-des{
     font-size: 20px;
     color: #00000080;
+    
 }
 
+/* review section */
+
+.review-title{
+    text-align: center;
+    font-size: 42;
+    font-weight: bold;
+    padding-bottom:50px ;
+    margin-top: 137px;
+}
+
+.review-section{
+    margin-bottom: 137px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reviews{
+    background-color: #ffffff;
+    padding: 25px;
+    border: 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: rgb(239, 190, 84,.30);
+    border-radius: 10px;
+}
+
+.review-heading{
+    font-weight: bold;
+}
+
+.profile{
+    border-radius: 50%;
+}
+
+.review-profile{
+    display:flex;
+    align-items: center;
+}
+
+.reviewer-info{
+    margin-left: 15px;
+}
+
+.des{
+    color: #2b2a36;
+}
+
+.reviewer-name{
+font-weight: bold;
+color: #68686c;
+}
+
+.date{
+    font-family: inter;
+    color: #909093;
+}
